@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        " ##",
+        "  #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "trinity:spear_head_diamond",
+        "count": 1
+    }
+}

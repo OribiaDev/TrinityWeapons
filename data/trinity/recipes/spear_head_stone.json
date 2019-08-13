@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        " ##",
+        "  #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "trinity:spear_head_stone",
+        "count": 1
+    }
+}

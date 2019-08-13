@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "trinity:war_hammer_head_iron",
+        "count": 1
+    }
+}

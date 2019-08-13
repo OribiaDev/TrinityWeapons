@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "i i",
+        "iii",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "trinity:battle_axe_head_stone",
+        "count": 1
+    }
+}

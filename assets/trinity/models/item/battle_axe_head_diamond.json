@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "trinity:item/battle_axe_head_diamond"
+    }
+}
