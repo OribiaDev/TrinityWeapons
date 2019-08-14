@@ -1,0 +1,39 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[24,)" #mandatory (24 is current forge version)
+
+[[mods]] #mandatory
+
+modId="trinity" #mandatory
+
+version="0.0.2" #mandatory
+
+displayName="Trinity" #mandatory
+
+#displayURL="http://example.com/" #optional
+
+credits="Me" #optional
+
+authors="Nathan (Thermionic)" #optional
+
+description='''
+
+Trinity adds tons of new weapons into Minecraft! From ancient weapons from the cave men to the future where Donald Trump is not the president!
+
+'''
+
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.trinity]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[25,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"

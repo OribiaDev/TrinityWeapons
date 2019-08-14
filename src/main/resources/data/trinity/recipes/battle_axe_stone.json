@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "trinity:battle_axe_head_stone"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "trinity:battle_axe_stone",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:oak_planks"
+        }
+    },
+    "result": {
+        "item": "trinity:war_hammer_head_wood",
+        "count": 1
+    }
+}
