@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#",
+        "/",
+        "/"
+    ],
+    "key": {
+        "#": {
+            "item": "trinity:war_hammer_head_iron"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "trinity:war_hammer_iron",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "i i",
+        "iii",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "trinity:battle_axe_head_iron",
+        "count": 1
+    }
+}
