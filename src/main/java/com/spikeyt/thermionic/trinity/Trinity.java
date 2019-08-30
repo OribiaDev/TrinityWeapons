@@ -106,6 +106,8 @@ public class Trinity {
 					TrinityItems.knife_gold = new SwordItem(TrinityToolMaterials.goldknifemat, 0, -2.3f, new Item.Properties().group(WEAPONS)).setRegistryName(location("knife_gold")),
 					TrinityItems.halberd_gold = new SwordItem(TrinityToolMaterials.goldhalberdmat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("halberd_gold")),
 					
+					
+					
 					//stone
 					TrinityItems.spear_stone = new SwordItem(TrinityToolMaterials.spearstonemat, 0, -1.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_stone")),
 					TrinityItems.battle_axe_stone = new CustomAxeItem(TrinityToolMaterials.stonebattleaxemat, 0, -3.2f, new Item.Properties().group(WEAPONS)).setRegistryName(location("battle_axe_stone")),
@@ -134,6 +136,9 @@ public class Trinity {
 				
 			LOGGER.info("Items Registerd");
 		}
+		
+	
+
 		
 		public static ResourceLocation location(String name){
 			

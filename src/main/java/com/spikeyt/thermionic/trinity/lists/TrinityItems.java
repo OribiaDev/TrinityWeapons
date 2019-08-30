@@ -1,3 +1,4 @@
+
 package com.spikeyt.thermionic.trinity.lists;
 
 import net.minecraft.item.Item;
@@ -49,4 +50,9 @@ public class TrinityItems {
 	public static Item halberd_stone;
 	public static Item halberd_iron;
 	public static Item halberd_diamond;
+	public static Item dagger_wood;
+	public static Item dagger_gold;
+	public static Item dagger_stone;
+	public static Item dagger_iron;
+	public static Item dagger_diamond;
 }
