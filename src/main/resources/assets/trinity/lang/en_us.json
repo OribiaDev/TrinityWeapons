@@ -45,5 +45,10 @@
 	"item.trinity.halberd_gold": "Golden Halberd",
 	"item.trinity.halberd_stone": "Stone Halberd",
 	"item.trinity.halberd_iron": "iron Halberd",
-	"item.trinity.halberd_diamond": "Diamond Halberd"
+	"item.trinity.halberd_diamond": "Diamond Halberd",
+	"item.trinity.dagger_wood": "Wooden Dagger",
+	"item.trinity.dagger_gold": "Golden Dagger",
+	"item.trinity.dagger_stone": "Stone Dagger",
+	"item.trinity.dagger_iron": "Iron Dagger",
+	"item.trinity.dagger_diamond": "Diamond Dagger"
 }
