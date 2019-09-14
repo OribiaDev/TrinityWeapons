@@ -50,5 +50,10 @@
 	"item.trinity.dagger_gold": "Golden Dagger",
 	"item.trinity.dagger_stone": "Stone Dagger",
 	"item.trinity.dagger_iron": "Iron Dagger",
-	"item.trinity.dagger_diamond": "Diamond Dagger"
+	"item.trinity.dagger_diamond": "Diamond Dagger",
+	"item.trinity.lance_wood": "Wooden Lance",
+	"item.trinity.lance_gold": "Golden Lance",
+	"item.trinity.lance_stone": "Stone Lance",
+	"item.trinity.lance_iron": "Iron Lance",
+	"item.trinity.lance_diamond": "Diamond Lance"
 }

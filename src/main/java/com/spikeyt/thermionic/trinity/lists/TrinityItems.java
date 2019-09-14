@@ -55,4 +55,9 @@ public class TrinityItems {
 	public static Item dagger_stone;
 	public static Item dagger_iron;
 	public static Item dagger_diamond;
+	public static Item lance_wood;
+	public static Item lance_gold;
+	public static Item lance_stone;
+	public static Item lance_iron;
+	public static Item lance_diamond;
 }

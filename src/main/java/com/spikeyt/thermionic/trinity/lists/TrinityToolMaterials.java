@@ -39,7 +39,12 @@ public enum TrinityToolMaterials implements IItemTier {
 	golddaggermat(1.9f, 1.0f, 31, 0, 42, TrinityItems.knife_gold),
 	stonedaggermat(2.2f, 1.0f, 130, 0, 42, TrinityItems.knife_stone),
 	irondaggermat(3.2f, 1.0f, 249, 0, 42, TrinityItems.knife_iron),
-	diamonddaggermat(3.8f, 1.0f, 1560, 0, 42, TrinityItems.knife_diamond);
+	diamonddaggermat(3.8f, 1.0f, 1560, 0, 42, TrinityItems.knife_diamond),
+	woodlancemat(3.5f, 1.0f, 75, 0, 42, TrinityItems.lance_wood),
+	goldlancemat(3.6f, 1.0f, 48, 0, 42, TrinityItems.lance_gold),
+	stonelancemat(3.5f, 1.0f, 147, 0, 42, TrinityItems.lance_stone),
+	ironlancemat(4.5f, 1.0f, 249, 0, 42, TrinityItems.lance_iron),
+	diamondlancemat(6.5f, 1.0f, 1570, 0, 42, TrinityItems.lance_diamond);
 	
 	
 	private float attackDamage, efficiency;
