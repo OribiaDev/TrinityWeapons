@@ -10,9 +10,11 @@ logoFile="logo.png"
 
 modId="trinity" #mandatory
 
-version="1.2.0" #mandatory
+version="1.3.1" #mandatory
 
-displayName="Trinity" #mandatory
+displayName="TrinityWeapons" #mandatory
+
+updateJSONURL="https://raw.githubusercontent.com/Nater0097/StuffThatINeed/master/UpdateChecker.json"
 
 #displayURL="http://example.com/" #optional
 
@@ -22,7 +24,7 @@ authors="Nathan (Thermionic)" #optional
 
 description='''
 
-Trinity adds tons of new weapons into Minecraft! From ancient weapons from the cave men to the future where Donald Trump is not the president!
+TrinityWeapons adds tons of new weapons into Minecraft! From ancient weapons from the cave men to the future where Donald Trump is not the president!
 
 '''
 

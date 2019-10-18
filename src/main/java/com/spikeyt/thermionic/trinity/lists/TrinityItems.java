@@ -60,4 +60,14 @@ public class TrinityItems {
 	public static Item lance_stone;
 	public static Item lance_iron;
 	public static Item lance_diamond;
+	public static Item guisarme_wood;
+	public static Item guisarme_gold;
+	public static Item guisarme_stone;
+	public static Item guisarme_iron;
+	public static Item guisarme_diamond;
+	public static Item lucerne_hammer_wood;
+	public static Item lucerne_hammer_gold;
+	public static Item lucerne_hammer_stone;
+	public static Item lucerne_hammer_iron;
+	public static Item lucerne_hammer_diamond;
 }

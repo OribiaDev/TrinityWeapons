@@ -70,7 +70,7 @@ public class Trinity {
 			event.getRegistry().registerAll(
 					
 					//Items
-					
+										
 					//wood
 					TrinityItems.spear_head_wood = new Item(new Item.Properties().group(CRAFTING)).setRegistryName(location("spear_head_wood")),
 					TrinityItems.battle_axe_head_wood = new Item(new Item.Properties().group(CRAFTING)).setRegistryName(location("battle_axe_head_wood")),
@@ -96,10 +96,11 @@ public class Trinity {
 					TrinityItems.battle_axe_head_diamond = new Item(new Item.Properties().group(CRAFTING)).setRegistryName(location("battle_axe_head_diamond")),
 					TrinityItems.war_hammer_head_diamond = new Item(new Item.Properties().group(CRAFTING)).setRegistryName(location("war_hammer_head_diamond")),
 					
+					
 					//Weapons || The second number after the material as seen below is the attack speed, when it is at 0 it is at 4 so if you wanted something like 1 you do -3
 					
 					//wood
-					TrinityItems.spear_wood = new SwordItem(TrinityToolMaterials.spearwoodmat, 0, -1.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_wood")),
+					TrinityItems.spear_wood = new SwordItem(TrinityToolMaterials.spearwoodmat, 0, -1.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_wood")),
 					TrinityItems.battle_axe_wood = new CustomAxeItem(TrinityToolMaterials.woodbattleaxemat, 0, -3.2f, new Item.Properties().group(WEAPONS)).setRegistryName(location("battle_axe_wood")),
 					TrinityItems.war_hammer_wood = new WarHammer(TrinityToolMaterials.woodwarhammermat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("war_hammer_wood")),
 					TrinityItems.katana_wood = new SwordItem(TrinityToolMaterials.woodkatanamat, 0, -1.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("katana_wood")),
@@ -107,9 +108,11 @@ public class Trinity {
 					TrinityItems.halberd_wood = new SwordItem(TrinityToolMaterials.woodhalberdmat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("halberd_wood")),
 					TrinityItems.dagger_wood = new SwordItem(TrinityToolMaterials.wooddaggermat, 0, -0.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("dagger_wood")),
 					TrinityItems.lance_wood = new SwordItem(TrinityToolMaterials.woodlancemat, 0, -1.8f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lance_wood")),
+					TrinityItems.guisarme_wood = new SwordItem(TrinityToolMaterials.woodguisarmemat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("guisarme_wood")),
+					TrinityItems.lucerne_hammer_wood = new SwordItem(TrinityToolMaterials.woodlucernemat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lucerne_hammer_wood")),
 					
 					//gold
-					TrinityItems.spear_gold = new SwordItem(TrinityToolMaterials.speargoldmat, 0, -1.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_gold")),
+					TrinityItems.spear_gold = new SwordItem(TrinityToolMaterials.speargoldmat, 0, -1.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_gold")),
 					TrinityItems.battle_axe_gold = new CustomAxeItem(TrinityToolMaterials.goldbattleaxemat, 0, -3.0f, new Item.Properties().group(WEAPONS)).setRegistryName(location("battle_axe_gold")),
 					TrinityItems.war_hammer_gold = new WarHammer(TrinityToolMaterials.goldwarhammermat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("war_hammer_gold")),
 					TrinityItems.katana_gold = new SwordItem(TrinityToolMaterials.goldkatanamat, 0, -1.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("katana_gold")),
@@ -117,10 +120,11 @@ public class Trinity {
 					TrinityItems.halberd_gold = new SwordItem(TrinityToolMaterials.goldhalberdmat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("halberd_gold")),
 					TrinityItems.dagger_gold = new SwordItem(TrinityToolMaterials.golddaggermat, 0, -0.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("dagger_gold")),
 					TrinityItems.lance_gold = new SwordItem(TrinityToolMaterials.goldlancemat, 0, -1.8f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lance_gold")),
-					
+					TrinityItems.guisarme_gold = new SwordItem(TrinityToolMaterials.goldguisarmemat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("guisarme_gold")),
+					TrinityItems.lucerne_hammer_gold = new SwordItem(TrinityToolMaterials.goldlucernemat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lucerne_hammer_gold")),
 					
 					//stone
-					TrinityItems.spear_stone = new SwordItem(TrinityToolMaterials.spearstonemat, 0, -1.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_stone")),
+					TrinityItems.spear_stone = new SwordItem(TrinityToolMaterials.spearstonemat, 0, -1.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_stone")),
 					TrinityItems.battle_axe_stone = new CustomAxeItem(TrinityToolMaterials.stonebattleaxemat, 0, -3.2f, new Item.Properties().group(WEAPONS)).setRegistryName(location("battle_axe_stone")),
 					TrinityItems.war_hammer_stone = new WarHammer(TrinityToolMaterials.stonewarhammermat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("war_hammer_stone")),
 					TrinityItems.katana_stone = new SwordItem(TrinityToolMaterials.stonekatanamat, 0, -1.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("katana_stone")),
@@ -128,9 +132,11 @@ public class Trinity {
 					TrinityItems.halberd_stone = new SwordItem(TrinityToolMaterials.stonehalberdmat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("halberd_stone")),
 					TrinityItems.dagger_stone = new SwordItem(TrinityToolMaterials.stonedaggermat, 0, -0.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("dagger_stone")),
 					TrinityItems.lance_stone = new SwordItem(TrinityToolMaterials.stonelancemat, 0, -1.8f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lance_stone")),
+					TrinityItems.guisarme_stone = new SwordItem(TrinityToolMaterials.stoneguisarmemat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("guisarme_stone")),
+					TrinityItems.lucerne_hammer_stone = new SwordItem(TrinityToolMaterials.stonelucernemat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lucerne_hammer_stone")),
 					
 					//iron
-					TrinityItems.spear_iron = new SwordItem(TrinityToolMaterials.spearironmat, 0, -1.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_iron")),
+					TrinityItems.spear_iron = new SwordItem(TrinityToolMaterials.spearironmat, 0, -1.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_iron")),
 					TrinityItems.battle_axe_iron = new CustomAxeItem(TrinityToolMaterials.ironbattleaxemat, 0, -3.1f, new Item.Properties().group(WEAPONS)).setRegistryName(location("battle_axe_iron")),
 					TrinityItems.war_hammer_iron = new WarHammer(TrinityToolMaterials.ironwarhammermat, 0, -2f, new Item.Properties().group(WEAPONS)).setRegistryName(location("war_hammer_iron")),
 					TrinityItems.katana_iron = new SwordItem(TrinityToolMaterials.ironkatanamat, 0, -1.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("katana_iron")),
@@ -138,16 +144,22 @@ public class Trinity {
 					TrinityItems.halberd_iron = new SwordItem(TrinityToolMaterials.ironhalberdmat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("halberd_iron")),
 					TrinityItems.dagger_iron = new SwordItem(TrinityToolMaterials.irondaggermat, 0, -0.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("dagger_iron")),
 					TrinityItems.lance_iron = new SwordItem(TrinityToolMaterials.ironlancemat, 0, -1.8f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lance_iron")),
+					TrinityItems.guisarme_iron = new SwordItem(TrinityToolMaterials.ironguisarmemat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("guisarme_iron")),
+					TrinityItems.lucerne_hammer_iron = new SwordItem(TrinityToolMaterials.ironlucernemat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lucerne_hammer_iron")),
 					
 					//diamond
-					TrinityItems.spear_diamond = new SwordItem(TrinityToolMaterials.speardiamondmat, 0, -1.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_diamond")),
+					TrinityItems.spear_diamond = new SwordItem(TrinityToolMaterials.speardiamondmat, 0, -1.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("spear_diamond")),
 					TrinityItems.battle_axe_diamond = new CustomAxeItem(TrinityToolMaterials.diamondbattleaxemat, 0, -3.0f, new Item.Properties().group(WEAPONS)).setRegistryName(location("battle_axe_diamond")),
 					TrinityItems.war_hammer_diamond = new WarHammer(TrinityToolMaterials.diamondwarhammermat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("war_hammer_diamond")),
 					TrinityItems.katana_diamond = new SwordItem(TrinityToolMaterials.diamondkatanamat, 0, -1.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("katana_diamond")),
 					TrinityItems.knife_diamond = new SwordItem(TrinityToolMaterials.diamondknifemat, 0, -1.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("knife_diamond")),
 					TrinityItems.halberd_diamond = new SwordItem(TrinityToolMaterials.diamondhalberdmat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("halberd_diamond")),
 					TrinityItems.dagger_diamond = new SwordItem(TrinityToolMaterials.diamonddaggermat, 0, -0.6f, new Item.Properties().group(WEAPONS)).setRegistryName(location("dagger_diamond")),
-					TrinityItems.lance_diamond = new SwordItem(TrinityToolMaterials.diamondlancemat, 0, -1.8f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lance_diamond"))
+					TrinityItems.lance_diamond = new SwordItem(TrinityToolMaterials.diamondlancemat, 0, -1.8f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lance_diamond")),
+					TrinityItems.guisarme_diamond = new SwordItem(TrinityToolMaterials.diamondguisarmemat, 0, -2.5f, new Item.Properties().group(WEAPONS)).setRegistryName(location("guisarme_diamond")),
+					TrinityItems.lucerne_hammer_diamond = new SwordItem(TrinityToolMaterials.diamondlucernemat, 0, -2.7f, new Item.Properties().group(WEAPONS)).setRegistryName(location("lucerne_hammer_diamond"))
+										
+					
 					
 					);
 				

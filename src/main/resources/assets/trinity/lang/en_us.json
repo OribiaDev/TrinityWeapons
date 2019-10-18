@@ -4,8 +4,8 @@
 	"item.trinity.spear_head_gold": "Golden Spear Head",
 	"item.trinity.spear_head_iron": "Iron Spear Head",
 	"item.trinity.spear_head_diamond": "Diamond Spear Head",
-	"itemGroup.weapons": "Trinity: Weapons",
-	"itemGroup.crafting": "Trinity: Crafting Materials",
+	"itemGroup.weapons": "TrinityWeapons: Weapons",
+	"itemGroup.crafting": "TrinityWeapons: Crafting Materials",
 	"item.trinity.battle_axe_head_wood": "Wooden Battle Axe Head",
 	"item.trinity.battle_axe_head_gold": "Golden Battle Axe Head",
 	"item.trinity.battle_axe_head_stone": "Stone Battle Axe Head",
@@ -55,5 +55,15 @@
 	"item.trinity.lance_gold": "Golden Lance",
 	"item.trinity.lance_stone": "Stone Lance",
 	"item.trinity.lance_iron": "Iron Lance",
-	"item.trinity.lance_diamond": "Diamond Lance"
+	"item.trinity.lance_diamond": "Diamond Lance",
+	"item.trinity.guisarme_wood": "Wooden Guisarme",
+	"item.trinity.guisarme_gold": "Golden Guisarme",
+	"item.trinity.guisarme_stone": "Stone Guisarme",
+	"item.trinity.guisarme_iron": "Iron Guisarme",
+	"item.trinity.guisarme_diamond": "Diamond Guisarme",
+	"item.trinity.lucerne_hammer_wood": "Wooden Lucerne Hammer",
+	"item.trinity.lucerne_hammer_gold": "Golden Lucerne Hammer",
+	"item.trinity.lucerne_hammer_stone": "Stone Lucerne Hammer",
+	"item.trinity.lucerne_hammer_iron": "Iron Lucerne Hammer",
+	"item.trinity.lucerne_hammer_diamond": "Diamond Lucerne Hammer"
 }
