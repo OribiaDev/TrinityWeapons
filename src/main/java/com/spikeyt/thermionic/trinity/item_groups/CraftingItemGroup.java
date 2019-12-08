@@ -1,4 +1,4 @@
-package com.spikeyt.thermionic.trinity;
+package com.spikeyt.thermionic.trinity.item_groups;
 
 import com.spikeyt.thermionic.trinity.lists.TrinityItems;
 

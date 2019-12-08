@@ -10,21 +10,21 @@ logoFile="logo.png"
 
 modId="trinity" #mandatory
 
-version="1.3.1" #mandatory
+version="1.4.0" #mandatory
 
 displayName="TrinityWeapons" #mandatory
 
 updateJSONURL="https://raw.githubusercontent.com/Nater0097/StuffThatINeed/master/UpdateChecker.json"
 
-#displayURL="http://example.com/" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/trinityweapons" #optional
 
-credits="You, for downloading this mod!" #optional
+credits="Devilb666 for making the awesome textures you see in this mod today! \n You, For downloading this awesome mod!" #optional
 
 authors="Nathan (Thermionic)" #optional
 
 description='''
 
-TrinityWeapons adds tons of new weapons into Minecraft! From ancient weapons from the cave men to the future where Donald Trump is not the president!
+TrinityWeapons adds tons of new weapons into Minecraft! From ancient weapons from the cave men to the present day(without guns)!
 
 '''
 

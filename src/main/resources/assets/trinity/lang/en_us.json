@@ -65,5 +65,10 @@
 	"item.trinity.lucerne_hammer_gold": "Golden Lucerne Hammer",
 	"item.trinity.lucerne_hammer_stone": "Stone Lucerne Hammer",
 	"item.trinity.lucerne_hammer_iron": "Iron Lucerne Hammer",
-	"item.trinity.lucerne_hammer_diamond": "Diamond Lucerne Hammer"
+	"item.trinity.lucerne_hammer_diamond": "Diamond Lucerne Hammer",
+	"item.trinity.quarterstaff_wood": "Wooden Quarterstaff",
+	"item.trinity.quarterstaff_gold": "Golden Quarterstaff",
+	"item.trinity.quarterstaff_stone": "Stone Quarterstaff",
+	"item.trinity.quarterstaff_iron": "Iron Quarterstaff",
+	"item.trinity.quarterstaff_diamond": "Diamond Quarterstaff"
 }

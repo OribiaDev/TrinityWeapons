@@ -70,4 +70,9 @@ public class TrinityItems {
 	public static Item lucerne_hammer_stone;
 	public static Item lucerne_hammer_iron;
 	public static Item lucerne_hammer_diamond;
+	public static Item quarterstaff_wood;
+	public static Item quarterstaff_gold;
+	public static Item quarterstaff_stone;
+	public static Item quarterstaff_iron;
+	public static Item quarterstaff_diamond;
 }
