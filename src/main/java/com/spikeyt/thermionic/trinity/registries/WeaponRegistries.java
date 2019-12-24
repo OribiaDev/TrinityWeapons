@@ -30,7 +30,7 @@ public class WeaponRegistries {
 					TrinityItems.lance_wood = new SwordItem(TrinityToolMaterials.woodlancemat, 0, -1.8f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lance_wood")),
 					TrinityItems.guisarme_wood = new SwordItem(TrinityToolMaterials.woodguisarmemat, 0, -2.5f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("guisarme_wood")),
 					TrinityItems.lucerne_hammer_wood = new SwordItem(TrinityToolMaterials.woodlucernemat, 0, -2.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lucerne_hammer_wood")),
-					//TrinityItems.quarterstaff_wood = new SwordItem(TrinityToolMaterials.woodquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_wood")),
+					TrinityItems.quarterstaff_wood = new SwordItem(TrinityToolMaterials.woodquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_wood")),
 					
 					//gold
 					TrinityItems.spear_gold = new SwordItem(TrinityToolMaterials.speargoldmat, 0, -1.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("spear_gold")),
@@ -43,7 +43,7 @@ public class WeaponRegistries {
 					TrinityItems.lance_gold = new SwordItem(TrinityToolMaterials.goldlancemat, 0, -1.8f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lance_gold")),
 					TrinityItems.guisarme_gold = new SwordItem(TrinityToolMaterials.goldguisarmemat, 0, -2.5f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("guisarme_gold")),
 					TrinityItems.lucerne_hammer_gold = new SwordItem(TrinityToolMaterials.goldlucernemat, 0, -2.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lucerne_hammer_gold")),
-					//TrinityItems.quarterstaff_gold = new SwordItem(TrinityToolMaterials.goldquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_gold")),
+					TrinityItems.quarterstaff_gold = new SwordItem(TrinityToolMaterials.goldquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_gold")),
 							
 					//stone
 					TrinityItems.spear_stone = new SwordItem(TrinityToolMaterials.spearstonemat, 0, -1.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("spear_stone")),
@@ -56,7 +56,7 @@ public class WeaponRegistries {
 					TrinityItems.lance_stone = new SwordItem(TrinityToolMaterials.stonelancemat, 0, -1.8f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lance_stone")),
 					TrinityItems.guisarme_stone = new SwordItem(TrinityToolMaterials.stoneguisarmemat, 0, -2.5f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("guisarme_stone")),
 					TrinityItems.lucerne_hammer_stone = new SwordItem(TrinityToolMaterials.stonelucernemat, 0, -2.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lucerne_hammer_stone")),
-					//TrinityItems.quarterstaff_stone = new SwordItem(TrinityToolMaterials.stonequarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_stone")),
+					TrinityItems.quarterstaff_stone = new SwordItem(TrinityToolMaterials.stonequarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_stone")),
 					
 					//iron
 					TrinityItems.spear_iron = new SwordItem(TrinityToolMaterials.spearironmat, 0, -1.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("spear_iron")),
@@ -69,7 +69,7 @@ public class WeaponRegistries {
 					TrinityItems.lance_iron = new SwordItem(TrinityToolMaterials.ironlancemat, 0, -1.8f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lance_iron")),
 					TrinityItems.guisarme_iron = new SwordItem(TrinityToolMaterials.ironguisarmemat, 0, -2.5f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("guisarme_iron")),
 					TrinityItems.lucerne_hammer_iron = new SwordItem(TrinityToolMaterials.ironlucernemat, 0, -2.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lucerne_hammer_iron")),
-					//TrinityItems.quarterstaff_iron = new SwordItem(TrinityToolMaterials.ironquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_iron")),
+					TrinityItems.quarterstaff_iron = new SwordItem(TrinityToolMaterials.ironquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_iron")),
 					
 					//diamond
 					TrinityItems.spear_diamond = new SwordItem(TrinityToolMaterials.speardiamondmat, 0, -1.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("spear_diamond")),
@@ -81,8 +81,8 @@ public class WeaponRegistries {
 					TrinityItems.dagger_diamond = new SwordItem(TrinityToolMaterials.diamonddaggermat, 0, -0.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("dagger_diamond")),
 					TrinityItems.lance_diamond = new SwordItem(TrinityToolMaterials.diamondlancemat, 0, -1.8f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lance_diamond")),
 					TrinityItems.guisarme_diamond = new SwordItem(TrinityToolMaterials.diamondguisarmemat, 0, -2.5f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("guisarme_diamond")),
-					TrinityItems.lucerne_hammer_diamond = new SwordItem(TrinityToolMaterials.diamondlucernemat, 0, -2.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lucerne_hammer_diamond"))
-					//TrinityItems.quarterstaff_diamond = new SwordItem(TrinityToolMaterials.diamondquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_diamond"))
+					TrinityItems.lucerne_hammer_diamond = new SwordItem(TrinityToolMaterials.diamondlucernemat, 0, -2.7f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("lucerne_hammer_diamond")),
+					TrinityItems.quarterstaff_diamond = new SwordItem(TrinityToolMaterials.diamondquarterstaffmat, 0, -1.6f, new Item.Properties().group(Trinity.WEAPONS)).setRegistryName(location("quarterstaff_diamond"))
 										
 					
 					
