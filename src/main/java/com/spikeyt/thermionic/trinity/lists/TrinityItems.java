@@ -4,32 +4,35 @@ package com.spikeyt.thermionic.trinity.lists;
 import net.minecraft.item.Item;
 
 public class TrinityItems {
-
+	
+	//Crafting
 	public static Item spear_head_stone;
 	public static Item spear_head_wood;
 	public static Item spear_head_iron;
 	public static Item spear_head_gold;
 	public static Item spear_head_diamond;
-	public static Item spear_stone;
-	public static Item spear_wood;
-	public static Item spear_iron;
-	public static Item spear_gold;
-	public static Item spear_diamond;
 	public static Item battle_axe_head_stone;
 	public static Item battle_axe_head_wood;
 	public static Item battle_axe_head_gold;
 	public static Item battle_axe_head_iron;
 	public static Item battle_axe_head_diamond;
-	public static Item battle_axe_wood;
-	public static Item battle_axe_gold; 
-	public static Item battle_axe_stone; 
-	public static Item battle_axe_iron; 
-	public static Item battle_axe_diamond; 
 	public static Item war_hammer_head_wood;
 	public static Item war_hammer_head_gold;
 	public static Item war_hammer_head_stone;
 	public static Item war_hammer_head_iron;
 	public static Item war_hammer_head_diamond;
+	
+	//Weapons
+	public static Item spear_stone;
+	public static Item spear_wood;
+	public static Item spear_iron;
+	public static Item spear_gold;
+	public static Item spear_diamond;
+	public static Item battle_axe_wood;
+	public static Item battle_axe_gold; 
+	public static Item battle_axe_stone; 
+	public static Item battle_axe_iron; 
+	public static Item battle_axe_diamond; 
 	public static Item war_hammer_wood;
 	public static Item war_hammer_gold;
 	public static Item war_hammer_stone;
@@ -75,4 +78,5 @@ public class TrinityItems {
 	public static Item quarterstaff_stone;
 	public static Item quarterstaff_iron;
 	public static Item quarterstaff_diamond;
+	
 }

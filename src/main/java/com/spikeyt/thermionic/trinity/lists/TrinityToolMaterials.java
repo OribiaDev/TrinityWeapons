@@ -5,65 +5,65 @@ import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 
 public enum TrinityToolMaterials implements IItemTier {
-	spearwoodmat(2.8f, 1.0f, 69, 0, 42, TrinityItems.spear_head_wood),
+	spearwoodmat(1.8f, 1.0f, 69, 0, 42, TrinityItems.spear_head_wood),
 	
-	speargoldmat(2.8f, 1.0f, 42, 0, 42, TrinityItems.spear_head_gold),
+	speargoldmat(1.8f, 1.0f, 42, 0, 42, TrinityItems.spear_head_gold),
 	
-	spearstonemat(3f, 1.0f, 141, 0, 42, TrinityItems.spear_head_stone),
+	spearstonemat(2f, 1.0f, 141, 0, 42, TrinityItems.spear_head_stone),
 	
-	spearironmat(3.5f, 1.0f, 260, 0, 42, TrinityItems.spear_head_iron),
+	spearironmat(2.5f, 1.0f, 260, 0, 42, TrinityItems.spear_head_iron),
 	
-	speardiamondmat(4.5f, 1.0f, 1571, 0, 42, TrinityItems.spear_head_diamond),
+	speardiamondmat(3.5f, 1.0f, 1571, 0, 42, TrinityItems.spear_head_diamond),
 	
-	woodbattleaxemat(5.1f, 2.0f, 135, 0, 42, TrinityItems.spear_head_wood),
+	woodbattleaxemat(4.1f, 2.0f, 135, 0, 42, TrinityItems.spear_head_wood),
 	
-	goldbattleaxemat(5.1f, 10.0f, 48, 0, 42, TrinityItems.spear_head_gold),
+	goldbattleaxemat(4.1f, 10.0f, 48, 0, 42, TrinityItems.spear_head_gold),
 	
-	stonebattleaxemat(6.5f, 4.0f, 147, 0, 42, TrinityItems.spear_head_stone),
+	stonebattleaxemat(5.5f, 4.0f, 147, 0, 42, TrinityItems.spear_head_stone),
 	
-	ironbattleaxemat(7.8f, 6.0f, 266, 0, 42, TrinityItems.spear_head_iron),
+	ironbattleaxemat(6.8f, 6.0f, 266, 0, 42, TrinityItems.spear_head_iron),
 		
-	diamondbattleaxemat(8.8f, 8.0f, 1577, 0, 42, TrinityItems.spear_head_diamond),
+	diamondbattleaxemat(7.8f, 8.0f, 1577, 0, 42, TrinityItems.spear_head_diamond),
 	
-	woodwarhammermat(4.8f, 1.0f, 72, 0, 42, TrinityItems.war_hammer_head_wood),
+	woodwarhammermat(3.8f, 1.0f, 72, 0, 42, TrinityItems.war_hammer_head_wood),
 	
-	goldwarhammermat(4.8f, 1.0f, 45, 0, 42, TrinityItems.war_hammer_head_gold),
+	goldwarhammermat(3.8f, 1.0f, 45, 0, 42, TrinityItems.war_hammer_head_gold),
 	
-	stonewarhammermat(5.4f, 1.0f, 144, 0, 42, TrinityItems.war_hammer_head_stone),
+	stonewarhammermat(4.4f, 1.0f, 144, 0, 42, TrinityItems.war_hammer_head_stone),
 	
-	ironwarhammermat(6.7f, 1.0f, 263, 0, 42, TrinityItems.war_hammer_head_iron),
+	ironwarhammermat(5.7f, 1.0f, 263, 0, 42, TrinityItems.war_hammer_head_iron),
 	
-	diamondwarhammermat(7f, 1.0f, 1574, 0, 42, TrinityItems.war_hammer_head_diamond),
+	diamondwarhammermat(6f, 1.0f, 1574, 0, 42, TrinityItems.war_hammer_head_diamond),
 	
-	woodkatanamat(5f, 1.0f, 75, 0, 42, TrinityItems.katana_wood),
+	woodkatanamat(4f, 1.0f, 75, 0, 42, TrinityItems.katana_wood),
 	
-	goldkatanamat(5f, 1.0f, 48, 0, 42, TrinityItems.katana_gold),
+	goldkatanamat(4f, 1.0f, 48, 0, 42, TrinityItems.katana_gold),
 	
-	stonekatanamat(6.2f, 1.0f, 147, 0, 42, TrinityItems.katana_stone),
+	stonekatanamat(5.2f, 1.0f, 147, 0, 42, TrinityItems.katana_stone),
 	
-	ironkatanamat(7f, 1.0f, 266, 0, 42, TrinityItems.katana_iron),
+	ironkatanamat(6f, 1.0f, 266, 0, 42, TrinityItems.katana_iron),
 	
-	diamondkatanamat(7.8f, 1.0f, 1577, 0, 42, TrinityItems.katana_diamond),
+	diamondkatanamat(6.8f, 1.0f, 1577, 0, 42, TrinityItems.katana_diamond),
 	
-	woodknifemat(2.7f, 1.0f, 65, 0, 42, TrinityItems.knife_wood),
+	woodknifemat(1.7f, 1.0f, 65, 0, 42, TrinityItems.knife_wood),
 	
-	goldknifemat(2.7f, 1.0f, 38, 0, 42, TrinityItems.knife_gold),
+	goldknifemat(1.7f, 1.0f, 38, 0, 42, TrinityItems.knife_gold),
 	
-	stoneknifemat(3.2f, 1.0f, 137, 0, 42, TrinityItems.knife_stone),
+	stoneknifemat(2.2f, 1.0f, 137, 0, 42, TrinityItems.knife_stone),
 	
-	ironknifemat(4.8f, 1.0f, 256, 0, 42, TrinityItems.knife_iron),
+	ironknifemat(3.8f, 1.0f, 256, 0, 42, TrinityItems.knife_iron),
 	
-	diamondknifemat(5.4f, 1.0f, 1567, 0, 42, TrinityItems.knife_diamond),
+	diamondknifemat(4.4f, 1.0f, 1567, 0, 42, TrinityItems.knife_diamond),
 	
-	woodhalberdmat(3.7f, 1.0f, 67, 0, 42, TrinityItems.halberd_wood),
+	woodhalberdmat(2.7f, 1.0f, 67, 0, 42, TrinityItems.halberd_wood),
 	
-	goldhalberdmat(3.7f, 1.0f, 40, 0, 42, TrinityItems.halberd_gold),
+	goldhalberdmat(2.7f, 1.0f, 40, 0, 42, TrinityItems.halberd_gold),
 	
-	stonehalberdmat(4.3f, 1.0f, 139, 0, 42, TrinityItems.halberd_stone),
+	stonehalberdmat(3.3f, 1.0f, 139, 0, 42, TrinityItems.halberd_stone),
 	
-	ironhalberdmat(6.0f, 1.0f, 258, 0, 42, TrinityItems.halberd_iron),
+	ironhalberdmat(5.0f, 1.0f, 258, 0, 42, TrinityItems.halberd_iron),
 	
-	diamondhalberdmat(7.6f, 1.0f, 1569, 0, 42, TrinityItems.halberd_diamond),
+	diamondhalberdmat(6.6f, 1.0f, 1569, 0, 42, TrinityItems.halberd_diamond),
 	
 	wooddaggermat(1.7f, 1.0f, 58, 0, 42, TrinityItems.knife_wood),
 	
@@ -75,15 +75,15 @@ public enum TrinityToolMaterials implements IItemTier {
 	
 	diamonddaggermat(4.5f, 1.0f, 1560, 0, 42, TrinityItems.knife_diamond),
 	
-	woodlancemat(2.5f, 1.0f, 75, 0, 42, TrinityItems.lance_wood),
+	woodlancemat(1.5f, 1.0f, 75, 0, 42, TrinityItems.lance_wood),
 	
 	goldlancemat(2.5f, 1.0f, 48, 0, 42, TrinityItems.lance_gold),
 	
 	stonelancemat(3.8f, 1.0f, 147, 0, 42, TrinityItems.lance_stone),
 	
-	ironlancemat(4.5f, 1.0f, 249, 0, 42, TrinityItems.lance_iron),
+	ironlancemat(4.2f, 1.0f, 249, 0, 42, TrinityItems.lance_iron),
 	
-	diamondlancemat(5.5f, 1.0f, 1570, 0, 42, TrinityItems.lance_diamond),
+	diamondlancemat(4.5f, 1.0f, 1570, 0, 42, TrinityItems.lance_diamond),
 	
 	woodguisarmemat(3.5f, 1.0f, 60, 0, 42, TrinityItems.guisarme_wood),
 	
@@ -134,7 +134,7 @@ public enum TrinityToolMaterials implements IItemTier {
 	@Override
 	public float getAttackDamage() {
 		
-		return this.attackDamage;
+		return this.attackDamage - 1;
 	}
 
 	@Override

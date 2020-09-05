@@ -2,6 +2,8 @@ modLoader="javafml" #mandatory
 
 loaderVersion="[28,)" 
 
+license="All Rights Reserved"
+
 issueTrackerURL="https://github.com/Nater0097/Trinity/issues"
 
 logoFile="logo.png"
@@ -10,7 +12,7 @@ logoFile="logo.png"
 
 modId="trinity" #mandatory
 
-version="1.4.0" #mandatory
+version="1.5.0" #mandatory
 
 displayName="TrinityWeapons" #mandatory
 
@@ -18,13 +20,13 @@ updateJSONURL="https://raw.githubusercontent.com/Nater0097/StuffThatINeed/master
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/trinityweapons" #optional
 
-credits="Devilb666 for making the awesome textures you see in this mod today! \n You, For downloading this awesome mod!" #optional
+credits="Devilb666(Artist) \n You, For downloading this incredible mod!" #optional
 
-authors="Nathan (Thermionic)" #optional
+authors="Nathan(Thermionic)" #optional
 
 description='''
 
-TrinityWeapons adds tons of new weapons into Minecraft! From ancient weapons from the cave men to the present day(without guns)!
+TrinityWeapons adds new and exciting weapons into Minecraft! From the Cavemen to Covid-19, we have all the weapons..
 
 '''
 
