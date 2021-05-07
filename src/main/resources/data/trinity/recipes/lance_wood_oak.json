@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " ##",
-        " # ",
-        " / "
+        " #",
+        "##",
+        " /"
     ],
     "key": {
         "#": {
@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:carrot_on_a_stick",
+        "item": "trinity:lance_wood",
         "count": 1
     }
 }

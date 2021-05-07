@@ -1,13 +1,13 @@
 {
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
-        " # ",
-        " / ",
-        " / "
+        "# #",
+        "#/#",
+        "#/#"
     ],
     "key": {
         "#": {
-            "item": "trinity:battle_axe_head_diamond"
+            "item": "minecraft:diamond"
         },
         "/": {
             "item": "minecraft:stick"

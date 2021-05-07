@@ -1,13 +1,13 @@
 {
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
-        "  #",
+        "  i",
         " / ",
         "/  "
     ],
     "key": {
-        "#": {
-            "item": "trinity:spear_head_iron"
+        "i": {
+            "item": "minecraft:iron_ingot"
         },
         "/": {
             "item": "minecraft:stick"

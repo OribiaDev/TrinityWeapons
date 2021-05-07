@@ -1,13 +1,13 @@
 {
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#",
-        "/",
-        "/"
+        "iii",
+        "i/i",
+        " / "
     ],
     "key": {
-        "#": {
-            "item": "trinity:war_hammer_head_iron"
+        "i": {
+            "item": "minecraft:iron_ingot"
         },
         "/": {
             "item": "minecraft:stick"

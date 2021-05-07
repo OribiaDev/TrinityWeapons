@@ -1,18 +1,17 @@
+
 modLoader="javafml" #mandatory
 
-loaderVersion="[28,)" 
+loaderVersion="[36,)" 
 
-license="All Rights Reserved"
+license="All rights reserved"
 
 issueTrackerURL="https://github.com/Nater0097/Trinity/issues"
-
-logoFile="logo.png"
 
 [[mods]] #mandatory
 
 modId="trinity" #mandatory
 
-version="1.5.0" #mandatory
+version="1.6.0" #mandatory
 
 displayName="TrinityWeapons" #mandatory
 
@@ -20,7 +19,9 @@ updateJSONURL="https://raw.githubusercontent.com/Nater0097/StuffThatINeed/master
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/trinityweapons" #optional
 
-credits="Devilb666(Artist) \n You, For downloading this incredible mod!" #optional
+logoFile="logo.png"
+
+credits="Devilb666(Artist)" #optional
 
 authors="Nathan(Thermionic)" #optional
 
@@ -29,7 +30,6 @@ description='''
 TrinityWeapons adds new and exciting weapons into Minecraft! From the Cavemen to Covid-19, we have all the weapons..
 
 '''
-
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.trinity]] #optional
@@ -42,6 +42,7 @@ TrinityWeapons adds new and exciting weapons into Minecraft! From the Cavemen to
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.4]"
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.5)"
     ordering="NONE"
     side="BOTH"

@@ -3,7 +3,6 @@ package com.spikeyt.thermionic.trinity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.spikeyt.thermionic.trinity.item_groups.CraftingItemGroup;
 import com.spikeyt.thermionic.trinity.item_groups.WeaponsItemGroup;
 
 import net.minecraft.item.ItemGroup;
@@ -20,7 +19,6 @@ public class Trinity {
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 	
 	public static final ItemGroup WEAPONS = new WeaponsItemGroup();
-	public static final ItemGroup CRAFTING = new CraftingItemGroup();
 	
 
 	

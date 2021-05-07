@@ -1,5 +1,5 @@
 {
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
         "  #",
         " / ",
@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "trinity:spear_head_diamond"
+            "item": "minecraft:diamond"
         },
         "/": {
             "item": "minecraft:stick"

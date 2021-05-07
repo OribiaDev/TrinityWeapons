@@ -12,10 +12,11 @@ public class WeaponsItemGroup extends ItemGroup {
 		super("weapons");
 	}
 
+
 	@Override
-	public ItemStack createIcon() {
+	public ItemStack makeIcon() {
 		// TODO Auto-generated method stub
-		return new ItemStack(TrinityItems.battle_axe_stone);
+		return new ItemStack(TrinityItems.battle_axe_netherite);
 	}
 
 

@@ -5,35 +5,41 @@ import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 
 public enum TrinityToolMaterials implements IItemTier {
-	spearwoodmat(1.8f, 1.0f, 69, 0, 42, TrinityItems.spear_head_wood),
+	spearwoodmat(1.8f, 1.0f, 69, 0, 42, TrinityItems.spear_wood),
 	
-	speargoldmat(1.8f, 1.0f, 42, 0, 42, TrinityItems.spear_head_gold),
+	speargoldmat(1.8f, 1.0f, 42, 0, 42, TrinityItems.spear_gold),
 	
-	spearstonemat(2f, 1.0f, 141, 0, 42, TrinityItems.spear_head_stone),
+	spearstonemat(2f, 1.0f, 141, 0, 42, TrinityItems.spear_stone),
 	
-	spearironmat(2.5f, 1.0f, 260, 0, 42, TrinityItems.spear_head_iron),
+	spearironmat(2.5f, 1.0f, 260, 0, 42, TrinityItems.spear_iron),
 	
-	speardiamondmat(3.5f, 1.0f, 1571, 0, 42, TrinityItems.spear_head_diamond),
+	speardiamondmat(3.5f, 1.0f, 1571, 0, 42, TrinityItems.spear_diamond),
 	
-	woodbattleaxemat(4.1f, 2.0f, 135, 0, 42, TrinityItems.spear_head_wood),
+	spearnetheritemat(4.5f, 1.0f, 2041, 0, 42, TrinityItems.spear_netherite),
 	
-	goldbattleaxemat(4.1f, 10.0f, 48, 0, 42, TrinityItems.spear_head_gold),
+	woodbattleaxemat(4.1f, 2.0f, 135, 0, 42, TrinityItems.battle_axe_wood),
 	
-	stonebattleaxemat(5.5f, 4.0f, 147, 0, 42, TrinityItems.spear_head_stone),
+	goldbattleaxemat(4.1f, 10.0f, 48, 0, 42, TrinityItems.battle_axe_gold),
 	
-	ironbattleaxemat(6.8f, 6.0f, 266, 0, 42, TrinityItems.spear_head_iron),
+	stonebattleaxemat(5.5f, 4.0f, 147, 0, 42, TrinityItems.battle_axe_stone),
+	
+	ironbattleaxemat(6.8f, 6.0f, 266, 0, 42, TrinityItems.battle_axe_iron),
 		
-	diamondbattleaxemat(7.8f, 8.0f, 1577, 0, 42, TrinityItems.spear_head_diamond),
+	diamondbattleaxemat(7.8f, 8.0f, 1577, 0, 42, TrinityItems.battle_axe_diamond),
 	
-	woodwarhammermat(3.8f, 1.0f, 72, 0, 42, TrinityItems.war_hammer_head_wood),
+	netheritebattleaxemat(8.8f, 8.0f, 2051, 0, 42, TrinityItems.battle_axe_netherite),
 	
-	goldwarhammermat(3.8f, 1.0f, 45, 0, 42, TrinityItems.war_hammer_head_gold),
+	woodwarhammermat(3.8f, 1.0f, 72, 0, 42, TrinityItems.war_hammer_wood),
 	
-	stonewarhammermat(4.4f, 1.0f, 144, 0, 42, TrinityItems.war_hammer_head_stone),
+	goldwarhammermat(3.8f, 1.0f, 45, 0, 42, TrinityItems.war_hammer_gold),
 	
-	ironwarhammermat(5.7f, 1.0f, 263, 0, 42, TrinityItems.war_hammer_head_iron),
+	stonewarhammermat(4.4f, 1.0f, 144, 0, 42, TrinityItems.war_hammer_stone),
 	
-	diamondwarhammermat(6f, 1.0f, 1574, 0, 42, TrinityItems.war_hammer_head_diamond),
+	ironwarhammermat(5.7f, 1.0f, 263, 0, 42, TrinityItems.war_hammer_iron),
+	
+	diamondwarhammermat(6f, 1.0f, 1574, 0, 42, TrinityItems.war_hammer_diamond),
+	
+	netheritewarhammermat(7.1f, 1.0f, 2040, 0, 42, TrinityItems.war_hammer_netherite),
 	
 	woodkatanamat(4f, 1.0f, 75, 0, 42, TrinityItems.katana_wood),
 	
@@ -45,6 +51,8 @@ public enum TrinityToolMaterials implements IItemTier {
 	
 	diamondkatanamat(6.8f, 1.0f, 1577, 0, 42, TrinityItems.katana_diamond),
 	
+	netheritekatanamat(7.2f, 1.0f, 2035, 0, 42, TrinityItems.katana_netherite),
+	
 	woodknifemat(1.7f, 1.0f, 65, 0, 42, TrinityItems.knife_wood),
 	
 	goldknifemat(1.7f, 1.0f, 38, 0, 42, TrinityItems.knife_gold),
@@ -54,6 +62,8 @@ public enum TrinityToolMaterials implements IItemTier {
 	ironknifemat(3.8f, 1.0f, 256, 0, 42, TrinityItems.knife_iron),
 	
 	diamondknifemat(4.4f, 1.0f, 1567, 0, 42, TrinityItems.knife_diamond),
+	
+	netheriteknifemat(5.6f, 1.0f, 2045, 0, 42, TrinityItems.knife_netherite),
 	
 	woodhalberdmat(2.7f, 1.0f, 67, 0, 42, TrinityItems.halberd_wood),
 	
@@ -65,15 +75,19 @@ public enum TrinityToolMaterials implements IItemTier {
 	
 	diamondhalberdmat(6.6f, 1.0f, 1569, 0, 42, TrinityItems.halberd_diamond),
 	
-	wooddaggermat(1.7f, 1.0f, 58, 0, 42, TrinityItems.knife_wood),
+	netheritehalberdmat(7.3f, 1.0f, 2049, 0, 42, TrinityItems.halberd_netherite),
 	
-	golddaggermat(1.7f, 1.0f, 31, 0, 42, TrinityItems.knife_gold),
+	wooddaggermat(1.7f, 1.0f, 58, 0, 42, TrinityItems.dagger_wood),
 	
-	stonedaggermat(2.2f, 1.0f, 130, 0, 42, TrinityItems.knife_stone),
+	golddaggermat(1.7f, 1.0f, 31, 0, 42, TrinityItems.dagger_gold),
 	
-	irondaggermat(3.2f, 1.0f, 249, 0, 42, TrinityItems.knife_iron),
+	stonedaggermat(2.2f, 1.0f, 130, 0, 42, TrinityItems.dagger_stone),
 	
-	diamonddaggermat(4.5f, 1.0f, 1560, 0, 42, TrinityItems.knife_diamond),
+	irondaggermat(3.2f, 1.0f, 249, 0, 42, TrinityItems.dagger_iron),
+	
+	diamonddaggermat(4.5f, 1.0f, 1560, 0, 42, TrinityItems.dagger_diamond),
+	
+	netheritedaggermat(5.4f, 1.0f, 2030, 0, 42, TrinityItems.dagger_netherite),
 	
 	woodlancemat(1.5f, 1.0f, 75, 0, 42, TrinityItems.lance_wood),
 	
@@ -85,6 +99,8 @@ public enum TrinityToolMaterials implements IItemTier {
 	
 	diamondlancemat(4.5f, 1.0f, 1570, 0, 42, TrinityItems.lance_diamond),
 	
+	netheritelancemat(5.1f, 1.0f, 2041, 0, 42, TrinityItems.lance_netherite),
+	
 	woodguisarmemat(3.5f, 1.0f, 60, 0, 42, TrinityItems.guisarme_wood),
 	
 	goldguisarmemat(3.5f, 1.0f, 33, 0, 42, TrinityItems.guisarme_gold),
@@ -94,6 +110,8 @@ public enum TrinityToolMaterials implements IItemTier {
 	ironguisarmemat(5.4f, 1.0f, 251, 0, 42, TrinityItems.guisarme_iron),
 	
 	diamondguisarmemat(6.3f, 1.0f, 1570, 0, 42, TrinityItems.guisarme_diamond),
+	
+	netheriteguisarmemat(7.2f, 1.0f, 2041, 0, 42, TrinityItems.guisarme_netherite),
 	
 	woodlucernemat(2.5f, 1.0f, 70, 0, 42, TrinityItems.lucerne_hammer_wood),
 	
@@ -105,6 +123,8 @@ public enum TrinityToolMaterials implements IItemTier {
 	
 	diamondlucernemat(6.5f, 1.0f, 1580, 0, 42, TrinityItems.lucerne_hammer_diamond),
 	
+	netheritelucernemat(7.5f, 1.0f, 2061, 0, 42, TrinityItems.lucerne_hammer_netherite),
+	
 	woodquarterstaffmat(1.5f, 1.0f, 58, 0, 42, TrinityItems.quarterstaff_wood),
 	
 	goldquarterstaffmat(1.5f, 1.0f, 38, 0, 42, TrinityItems.quarterstaff_gold),
@@ -113,7 +133,9 @@ public enum TrinityToolMaterials implements IItemTier {
 	
 	ironquarterstaffmat(2.5f, 1.0f, 275, 0, 42, TrinityItems.quarterstaff_iron),
 	
-	diamondquarterstaffmat(3.5f, 1.0f, 1569, 0, 42, TrinityItems.quarterstaff_diamond);
+	diamondquarterstaffmat(3.5f, 1.0f, 1569, 0, 42, TrinityItems.quarterstaff_diamond),
+	
+	netheritequarterstaffmat(4.5f, 1.0f, 2049, 0, 42, TrinityItems.quarterstaff_netherite);
 	
 	
 	private float attackDamage, efficiency;
@@ -131,36 +153,42 @@ public enum TrinityToolMaterials implements IItemTier {
 		
 	}
 
+
+
 	@Override
-	public float getAttackDamage() {
-		
+	public float getAttackDamageBonus() {
+		// TODO Auto-generated method stub
 		return this.attackDamage - 1;
 	}
 
 	@Override
-	public float getEfficiency() {
-		return this.efficiency;
-	}
-
-	@Override
-	public int getEnchantability() {
+	public int getEnchantmentValue() {
 		// TODO Auto-generated method stub
 		return this.enchantability;
 	}
 
 	@Override
-	public int getHarvestLevel() {
+	public int getLevel() {
+		// TODO Auto-generated method stub
 		return this.harvestLevel;
 	}
 
 	@Override
-	public int getMaxUses() {
-		return this.durability;
+	public Ingredient getRepairIngredient() {
+		// TODO Auto-generated method stub
+		return Ingredient.of(this.repairMaterial);
 	}
 
 	@Override
-	public Ingredient getRepairMaterial() {
-		return Ingredient.fromItems(this.repairMaterial);
+	public float getSpeed() {
+		// TODO Auto-generated method stub
+		return this.efficiency;
+	}
+
+	@Override
+	public int getUses() {
+		// TODO Auto-generated method stub
+		return this.durability;
 	}
 
 }
