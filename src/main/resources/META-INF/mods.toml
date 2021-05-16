@@ -11,7 +11,7 @@ issueTrackerURL="https://github.com/Nater0097/Trinity/issues"
 
 modId="trinity" #mandatory
 
-version="1.6.0" #mandatory
+version="1.6.1" #mandatory
 
 displayName="TrinityWeapons" #mandatory
 
