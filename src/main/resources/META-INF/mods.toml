@@ -1,0 +1,48 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[43,)" 
+
+license="All rights reserved"
+
+issueTrackerURL="https://github.com/TheRealThermionic/TrinityWeapons/issues"
+
+[[mods]] #mandatory
+
+modId="trinity" #mandatory
+
+version="1.7.0" #mandatory
+
+displayName="TrinityWeapons" #mandatory
+
+updateJSONURL="https://raw.githubusercontent.com/TheRealThermionic/StuffThatINeed/master/UpdateChecker.json"
+
+displayURL="https://www.curseforge.com/minecraft/mc-mods/trinityweapons" #optional
+
+logoFile="logo.png"
+
+credits="Devilb666(Artist)" #optional
+
+authors="Nathan(Thermionic/Neito)" #optional
+
+description='''
+
+TrinityWeapons adds new and exciting weapons into Minecraft, from the middle ages to modern times!
+
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.trinity]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[43,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
