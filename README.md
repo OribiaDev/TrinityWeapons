@@ -1,6 +1,10 @@
-# TrinityWeapons
+<p align="center">
+ <img width="300px" src="https://spikeyt.com/Img/TrinityWeaponsLogo.png" align="center" alt="TrinityWeaponsLogo" />
+ <h2 align="center">TrinityWeapons</h2>
+ <p align="center">A Minecraft Weapons mod for 1.14-1.19, that adds new and exciting weaponns into Minecraft!</p>
+</p>
 
-A Minecraft Weapons mod for 1.14-1.19, that adds new and exciting weaponns into Minecraft!
+
 
 ## Description
 
