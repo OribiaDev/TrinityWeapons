@@ -8,7 +8,7 @@
 
 ## Description
 
-TrinityWeapons adds new weapons that the player may not have seen before in Minecraft, these weapons add more variety to Minecraft's weapons, and with this mod, Minecraft doesn't seem like it lacks weapons. It adds about 11 new weapons with every weapon having every tier (Wood, Stone, Gold, Iron, Diamond, Netherite). Its for versions 1.14.4 (Not Supported Anymore), 1.15 (Not Supported Anymore), 1.16, 1.17, 1.18, and 1.19.
+TrinityWeapons adds new weapons that the player may not have seen before in Minecraft, these weapons add more variety to Minecraft's weapons, and with this mod, Minecraft doesn't seem like it lacks weapons. It adds about 11 new weapons with every weapon having every tier (Wood, Stone, Gold, Iron, Diamond, Netherite). Its for versions 1.14.4 (Not Supported), 1.15 (Not Supported), 1.16, 1.17, 1.18, and 1.19.
 
 ## Getting Started
 
@@ -34,11 +34,11 @@ TrinityWeapons adds new weapons that the player may not have seen before in Mine
 
 ## Help
 
-* If the Mod crashes at any time (start up or while playing) please create an issue in the issue tab!
+* If the Mod crashes at any time (start-up or while playing) please create an issue in the issue tab!
 
 ## Authors
 
-* Nathan Knight (Author; natelyleknight@gmail.com)
+* Olivia Knight (Author; natelyleknight@gmail.com)
 * Devilb666 (Artist)
 
 ## Version History
