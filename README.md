@@ -38,7 +38,7 @@ TrinityWeapons adds new weapons that the player may not have seen before in Mine
 
 ## Authors
 
-* Olivia Knight (Author; natelyleknight@gmail.com)
+* [@Oribia_Dev](https://twitter.com/Oribia_Dev)
 * Devilb666 (Artist)
 
 ## Version History
